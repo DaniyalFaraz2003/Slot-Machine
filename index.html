@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Machine</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Welcome To The Slot Machine</h1>
+    <h3>Test Your Luck Here!!!</h3>
+    <div class="main-container">
+        <img src="slot.png" alt="slot machine image">
+        <div class="slots" id="slot-1">
+            <p>1</p>
+        </div>
+        <div class="slots" id="slot-2">
+            <p>2</p>
+        </div>
+        <div class="slots" id="slot-3">
+            <p>3</p>
+        </div>
+    </div>
+    <div class="operations-container">
+        <img src="buttons.png" alt="buttons image">
+        <button class="spin" onclick="spin()"><p>SPIN</p></button>
+        <p id="win-state">NONE</p>
+        <p id="balance">$0</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
